@@ -1,0 +1,215 @@
+/* This is for index.html */
+body {
+    margin: 0;
+}
+nav {
+    background-color: #acb7ae;
+    border-bottom: solid thick #82716e;
+    display: flex;
+    justify-content: flex-end;
+}
+.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile img {
+    padding-top: 10px;
+    border: 2px white;
+    border-radius: 10px;
+}
+nav a{
+    color: black;
+    margin-right: 10px;
+}
+nav a:hover {
+    color: purple;
+    font-weight: bold;
+}
+footer {
+    background-color: #acb7ae;
+    border-bottom: solid thick #82716e;
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    color: black;
+}
+footer a:hover {
+    color: purple;
+    font-weight: bold;
+}
+.Intro {
+    background-color: #e4decd;
+    padding-top: 1px;
+    position: relative;
+    text-align: center;
+    height: auto;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    color: purple;
+    font-weight: bold;
+}
+.h1Index {
+    font-family: 'Satisfy', cursive;
+    color:#82716e;
+    font-size: 82px;
+    margin-top: 800px;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: #7C9070;
+    font-size: 34px;
+    text-align: center;
+}
+.personalInfo {
+    text-align: center;
+}
+h3 {
+    font-family: 'Roboto Condensend', sans-serif;
+}
+hr {
+    border-top: dotted 5px #82716e;
+    border-bottom: none;
+    width: 50%;
+}
+.TopImages {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.top {
+    border: 2px solid lightblue;
+    border-radius: 5px;
+    max-width: 43%;
+    height: auto;
+    margin-top: 10px;
+}
+.bottom {
+    max-width: 57%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+.langImg {
+    max-width: 300%;
+    padding-top: 20px;
+}
+.expImg {
+    max-width: 300%;
+}
+.skills-image {
+    max-width: 150px !important;
+    height: auto !important;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+.three-col {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card {
+    background-color: #dddddd;
+    border: 2px solid lightgray;
+    box-shadow: 0 4px 6px gray;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+    text-align: center;
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: scale(1.02);
+}
+.card img {
+    max-width: 100%;
+}
+.card h3 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.card ul,
+.card dl {
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+}
+.card li,
+.card dt {
+    margin: 5px 0;
+}
+.card.langCard img {
+    padding-bottom: 20px;
+}
+.card.skillCard img {
+    max-width: 150px;
+    height: auto;
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+
+
+/* This is for contact.html */
+.h1Contact {
+    font-family: 'Satisfy', cursive;
+    color:#82716e;
+    font-size: 72px;
+    text-align: center;
+}
+.address, .phone {
+    text-align: center;
+}
+.contact {
+    background-color: #e4decd;
+}
+.one-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #dddddd;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 600px !important;
+    max-height: auto;
+    box-shadow: 0 4px 6px gray;
+    border-radius: 8px;
+    border: 2px solid lightgray;
+}
+.one-col:hover {
+    transform: scale(1.02);
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+
+.form label {
+    width: 120px;
+    text-align: left;
+    margin-right: 25px;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+    flex: 1;
+    padding: 5px;
+}
